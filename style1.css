@@ -127,11 +127,11 @@ option{
     justify-content: center;
 
 }
-.new-cell{
+/* .new-cell{
     color: gray;
     font-style: normal;
     font-size:x-large;
-}
+} */
 
 .new-cell-1{
     color: gray;
@@ -150,7 +150,25 @@ option{
 }
 .bolt{
     width: 20px;
+    color: grey !important;
+    margin: -20px 0 0 23px;
 }
+
+.sponsor{
+    display: flex;
+    justify-content: start;
+}
+
+.sponsor-link{
+    text-decoration: none !important;
+}
+
+.sponsorImg{
+    width: 20px;
+    height: 20px;
+}
+
+
 
 
 /* banner area */
